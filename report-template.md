@@ -1,14 +1,18 @@
-# Module 12 Report Template
+# Credit Risk Classification Report
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The purpose of this analysis is to develop a predictive model for assessing loan risk using machine learning modeling. The dataset included financial variables such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, and derogatory marks. These features were used to train the model to predict loan status, where '0' represented healthy loans and '1' represented high-risk loans.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+Exploratory analysis of the loan_status variable revealed its distribution, later aiding in discovering and understanding dataset imbalance and selecting appropriate evaluation metrics. The machine learning process involved splitting the data, into training and testing datasets, and ensuring the random_state as 1. Algorithms, including logistic regression, train-test split evaluation from sklearn.model_selection were utilized.
+
+When creating a Logistic Regression Model with the Original Data, the LogisticRegression method was used. To evaluate the model, the following steps were taken:
+
+- Generated predictions using X_test data.
+- Constructed a confusion matrix to visualize model predictions compared to actual loan statuses.
+- Printed the classification report, providing a comprehensive overview of the model's performance, including precision, recall, and F1-score for each class.
+  
+These evaluation techniques provided insights into the model's effectiveness in accurately classifying loan statuses, aiding in determining its practical utility in real-world scenarios.
 
 ## Results
 
