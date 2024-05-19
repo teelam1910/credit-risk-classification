@@ -2,7 +2,9 @@
 
 
 ## Description
-This project is aimed to build a predictive model using machine learning techniques to assess loan risk while leveraging a dataset with financial data like loan size, interest rate, and borrower income.
+This project is aimed to build a predictive model using machine learning techniques to assess loan risk while leveraging a dataset with financial data like loan size, interest rate, and borrower income.<br>
+
+The code can be accessed in the file named "credit_risk_classification.ipynb," while additional details, including an analysis overview, results, and a summary, are available in the "classification_report.md" file.
 
 
 
